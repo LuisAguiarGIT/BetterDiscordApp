@@ -27,8 +27,8 @@ currentWindow.webContents.on("dom-ready", async () => {
         return require(localRemote);
     }
 
-    const baseUrl = "https://www.gitcdn.xyz/repo/rauenzi/BetterDiscordApp/gh-pages/dist/remote.js";
-    const backupUrl = "https://rauenzi.github.io/BetterDiscordApp/dist/remote.js";
+    const baseUrl = "https://Lone-Soul.github.io/BetterDiscordApp/dist/remote.js";
+    const backupUrl = "https://Lone-Soul.github.io/BetterDiscordApp/dist/remote.js";
 
     Logger.log(`Loading Resource (${baseUrl})`);
     let success = await injectScript(baseUrl);
