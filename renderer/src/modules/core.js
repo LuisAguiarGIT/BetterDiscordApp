@@ -104,7 +104,7 @@ export default new class Core {
     }
 
     async checkForUpdate() {
-        const resp = await fetch(`https://api.github.com/repos/rauenzi/BetterDiscordApp/releases/latest`,{
+        const resp = await fetch(`https://api.github.com/repos/Lone-Soul/BetterDiscordApp/releases/latest`,{
             method: "GET",
             headers: {
                 "Accept": "application/json",

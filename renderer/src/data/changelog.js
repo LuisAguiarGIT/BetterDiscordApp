@@ -4,6 +4,10 @@ export default {
     description: "The rewrite you didn't even know about is finally here.",
     changes: [
         {
+          title: "You are running Lone_Soul's modified version :)",
+          items: []
+        },
+        {
             title: "What's New?",
             items: [
                 "**Everything** is entirely rewritten, for better or worse.",
